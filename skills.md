@@ -11,17 +11,6 @@
 *Esta seção documenta como o conhecimento é estruturado para gerar automação consistente.*
 
 ### Skill: Automação de Relatórios Pedagógicos Dinâmicos (Projeto EduReport)
-* **Descrição do Fluxo:** Captura de dados e transcrições de rotina, processamento inteligente do contexto via engenharia de prompts e estruturação lógica de dados.
-* **Regras de Execução & Contexto:** - Integração via API de LLMs (Google AI Studio / Gemini) para interpretação de dados e automação de relatórios.
-  - Renderização, geração e exportação de documentos complexos em formato PDF estruturado, com foco em performance.
-* **Stack de Infraestrutura:** JavaScript / TypeScript (Avançado), HTML5 / CSS3 Semântico, React.js (Next.js), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
-
-### Skill: Sistematização de Métricas e Diagnósticos ESG
-* **Descrição do Fluxo:** Estruturação de indicadores e aplicação de frameworks para auditoria de eficiência verde.
-* **Regras de Execução & Contexto:** Criação e acompanhamento de métricas voltadas para escolas sustentáveis, eficiência energética e gestão otimizada de recursos.
-* **Stack de Infraestrutura:** Engenharia de impacto e sustentabilidade voltada à eficiência energética.
-
-### Skill: Automação de Relatórios Pedagógicos Dinâmicos (Projeto EduReport)
 * **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor, focando na otimização da gestão de sala de aula, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica pedagógica.
 * **Regras de Execução & Contexto:**
   - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto gerado pelas transcrições para extração da intenção pedagógica e automatização de rotinas burocráticas do professor.
@@ -30,3 +19,9 @@
   - **Governança e Ética de Dados:** Sistema estruturado com foco em privacidade, anonimização de dados, ética em IA e aderência às boas práticas relacionadas à LGPD.
   - **Exportação:** Renderização e exportação dos documentos validados em formato PDF estruturado de alta performance.
 * **Stack de Infraestrutura:** JavaScript / TypeScript, React.js (Next.js), APIs de LLMs (Google AI Studio / Gemini), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
+
+### Skill: Sistematização de Métricas e Diagnósticos ESG
+* **Descrição do Fluxo:** Estruturação de indicadores e aplicação de frameworks para auditoria de eficiência verde.
+* **Regras de Execução & Contexto:** Criação e acompanhamento de métricas voltadas para escolas sustentáveis, eficiência energética e gestão otimizada de recursos.
+* **Stack de Infraestrutura:** Engenharia de impacto e sustentabilidade voltada à eficiência energética.
+
