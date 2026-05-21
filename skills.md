@@ -22,10 +22,11 @@
 * **Stack de Infraestrutura:** Engenharia de impacto e sustentabilidade voltada à eficiência energética.
 
 ### Skill: Automação de Relatórios Pedagógicos Dinâmicos (Projeto EduReport)
-* **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor. O fluxo atua em duas frentes: (1) estruturação de relatórios de evolução pedagógica dos estudantes e (2) análise textual preditiva para mapeamento do perfil de bem-estar e saúde mental do professor.
-* **Regras de Execução & Contexto:** - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto das transcrições diárias das aulas para identificar padrões linguísticos, níveis de sobrecarga e a intenção pedagógica.
-  - **Triagem do Estudante:** Nomeação e interpretação de contexto para identificação de padrões comportamentais e acadêmicos dos alunos (evitando cópias literais e diagnósticos clínicos).
-  - **Mapeamento de Saúde Mental do Professor:** Análise textual discreta e preditiva baseada em indicadores de desgaste, tom de voz expresso no texto, recorrência de termos associados a estresse ou exaustão, gerando insights de suporte à saúde coletiva docente.
-  - **Segurança e Ética de Dados:** Garantia de que a análise de saúde mental do docente seja tratada de forma confidencial, servindo como ferramenta de apoio e acolhimento, e nunca para fins punitivos.
-  - **Exportação:** Geração e exportação dos relatórios pedagógicos e dos indicadores de bem-estar em formato PDF estruturado de alta performance.
+* **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor, focando na otimização da gestão de sala de aula, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica pedagógica.
+* **Regras de Execução & Contexto:**
+  - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto gerado pelas transcrições para extração da intenção pedagógica e automatização de rotinas burocráticas do professor.
+  - **Triagem do Estudante:** Organização de relatos verbais dispersos em análises estruturadas (Panorama Geral, Indicadores Positivos e Pontos de Atenção), eliminando qualquer viés clínico, psicológico ou diagnóstico médico.
+  - **Mapeamento de Sobrecarga Operacional:** Análise de dados agregados e anonimizados para identificação de gargalos operacionais, volume de demandas pedagógicas e necessidades institucionais de suporte ao trabalho docente.
+  - **Governança e Ética de Dados:** Sistema estruturado com foco em privacidade, anonimização de dados, ética em IA e aderência às boas práticas relacionadas à LGPD.
+  - **Exportação:** Renderização e exportação dos documentos validados em formato PDF estruturado de alta performance.
 * **Stack de Infraestrutura:** JavaScript / TypeScript, React.js (Next.js), APIs de LLMs (Google AI Studio / Gemini), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
