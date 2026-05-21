@@ -11,20 +11,19 @@
 *Esta seção documenta como o conhecimento é estruturado para gerar automação consistente.*
 
 ### Skill: Inteligência Operacional para Gestão Pedagógica Contextual (Projeto DNAula)
-> **DNAula** é uma plataforma de inteligência operacional para gestão de sala de aula, baseada em transcrições reais e análise contextual da dinâmica pedagógica.
+> **DNAula** é uma plataforma de inteligência operacional para gestão de sala de aula, baseada em registros contextuais derivados da dinâmica real da sala de aula e análise contextual da dinâmica pedagógica.
 
-* **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor, focando na otimização da gestão de sala de aula, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica pedagógica.
+* **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir de interações pedagógicas verbalizadas, focando na otimização da gestão de sala de aula, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica pedagógica.
 * **Regras de Execução & Contexto:**
-  - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto gerado pelas transcrições para extração da intenção pedagógica e automatização de rotinas burocráticas do professor.
-  - **Leitura Pedagógica do Estudante:** Organização de interações pedagógicas verbalizadas em análises estruturadas (Panorama Geral, Indicators Positivos e Pontos de Atenção), eliminando qualquer viés clínico, psicológico ou diagnóstico médico.
+  - **Modelagem Semântica Contextual:** Aplicada sobre o texto bruto gerado a partir da dinâmica de sala de aula para extração da intenção pedagógica e automatização de rotinas burocráticas do professor.
+  - **Estruturação Contextual do Desenvolvimento Pedagógico:** Organização de interações pedagógicas verbalizadas em análises estruturadas (Panorama Geral, Indicadores Positivos e Pontos de Atenção), eliminando qualquer viés clínico, psicológico ou diagnóstico médico.
   - **Indicadores de Carga Operacional Docente:** Análise de dados agregados e anonimizados para identificar gargalos da rotina docente, estritamente sem finalidade avaliativa, punitiva ou individualizante.
   - **Governança e Ética de Dados:** Sistema estruturado com foco em privacidade, anonimização de dados, ética em IA e alinhamento às boas práticas relacionadas à LGPD.
   - **Exportação:** Geração de relatórios estruturados, validados e exportáveis em PDF.
-* **Escopo de Entrega (MVP):** Transcrição de aula, triagem pedagógica, geração de relatório estruturado e indicadores básicos de gestão de sala de aula.
-* **Stack de Infraestrutura:** JavaScript / TypeScript, React.js (Next.js), APIs de LLMs (Google AI Studio / Gemini), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
+* **Escopo de Entrega (MVP):** Processamento do contexto de aula, estruturação pedagógica do desenvolvimento, geração de relatórios validados e indicadores básicos de gestão de sala de aula.
 
 ### Skill: Inteligência ESG para Governança Escolar
-> Esta camada complementa o DNAula ao avaliar a escola como sistema institucional, e não apenas como um conjunto isolado de salas de aula.
+> Esta camada complementa o DNAula ao avaliar a escola como sistema institucional, e não apenas como um conjunto isolado de salas de aula. Os dados operacionais estruturados pelo DNAula servem como base contextual para a camada ESG institucional.
 
 * **Descrição do Fluxo:** Estruturação de indicadores institucionais voltados à análise da qualidade operacional, sustentabilidade organizacional e eficiência da dinâmica escolar, abrangendo de forma prática o uso de recursos, clima escolar, governança, inclusão, eficiência operacional e qualidade do ambiente educacional.
 * **Regras de Execução & Contexto:**
@@ -32,4 +31,10 @@
   - **Estruturação de Métricas:** Foco na gestão de recursos, qualidade do ambiente educacional e suporte à comunidade escolar.
   - **Diagnóstico Institucional:** Consolidação de relatórios e panoramas orientados por dados operacionais e contextuais.
   - **Visão Sistêmica:** Aplicação de lógica estruturada para identificação de gargalos organizacionais e oportunidades de melhoria contínua na gestão.
-* **Stack de Infraestrutura:** Engenharia de impacto institucional, análise sistêmica de indicadores educacionais e frameworks ESG aplicados ao ambiente escolar.
+
+---
+
+## 3. Barreira Competitiva e Diferencial Estrutural
+O DNAula diferencia-se por sua capacidade de estruturar inteligência operacional a partir da dinâmica pedagógica verbalizada em sala de aula. Seu núcleo tecnológico não se limita à transcrição de conteúdo, mas à modelagem contextual de interações educacionais complexas, convertendo linguagem não estruturada em indicadores organizacionais aplicáveis à gestão pedagógica e institucional.
+
+A combinação entre interpretação semântica contextual, governança ética de dados e lógica operacional educacional cria uma camada proprietária de inteligência difícil de replicar por soluções genéricas de automação ou IA conversacional.
