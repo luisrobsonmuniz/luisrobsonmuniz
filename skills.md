@@ -11,18 +11,21 @@
 *Esta seção documenta como o conhecimento é estruturado para gerar automação consistente.*
 
 ### Skill: Inteligência Operacional para Gestão Pedagógica Contextual (Projeto DNAula)
-> **DNAula** é uma plataforma de inteligência operacional escolar baseada em transcrições reais de aula.
+> **DNAula** é uma plataforma de inteligência operacional para gestão de sala de aula, baseada em transcrições reais e análise contextual da dinâmica pedagógica.
 
 * **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor, focando na otimização da gestão de sala de aula, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica pedagógica.
 * **Regras de Execução & Contexto:**
   - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto gerado pelas transcrições para extração da intenção pedagógica e automatização de rotinas burocráticas do professor.
   - **Triagem do Estudante:** Organização de relatos verbais dispersos em análises estruturadas (Panorama Geral, Indicadores Positivos e Pontos de Atenção), eliminando qualquer viés clínico, psicológico ou diagnóstico médico.
   - **Indicadores de Carga Operacional Docente:** Análise de dados agregados e anonimizados para identificação de gargalos operacionais, volume de demandas pedagógicas e necessidades institucionais de suporte ao trabalho docente.
-  - **Governança e Ética de Dados:** Sistema estruturado com foco em privacidade, anonimização de dados, ética em IA e estrita aderência às boas práticas relacionadas à LGPD.
-  - **Exportação:** Renderização e exportação dos documentos validados em formato PDF estruturado de alta performance.
+  - **Governança e Ética de Dados:** Sistema estruturado com foco em privacidade, anonimização de dados, ética em IA e alinhamento às boas práticas relacionadas à LGPD.
+  - **Exportação:** Geração de relatórios estruturados, validados e exportáveis em PDF.
+* **Escopo de Entrega (MVP):** Transcrição de aula, triagem pedagógica, geração de relatório estruturado e indicadores básicos de gestão de sala de aula.
 * **Stack de Infraestrutura:** JavaScript / TypeScript, React.js (Next.js), APIs de LLMs (Google AI Studio / Gemini), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
 
 ### Skill: Inteligência ESG para Governança Escolar
+> Esta camada complementa o DNAula ao avaliar a escola como sistema institucional, e não apenas como um conjunto isolado de salas de aula.
+
 * **Descrição do Fluxo:** Estruturação de indicadores institucionais voltados à análise da qualidade operacional, sustentabilidade organizacional e eficiência da dinâmica escolar, utilizando frameworks ESG adaptados ao contexto educacional.
 * **Regras de Execução & Contexto:**
   - **Mapeamento de Indicadores:** Monitoramento de métricas relacionadas à governança pedagógica, clima institucional, eficiência operacional e sustentabilidade escolar.
