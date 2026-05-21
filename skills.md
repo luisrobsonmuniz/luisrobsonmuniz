@@ -22,10 +22,10 @@
 * **Stack de Infraestrutura:** Engenharia de impacto e sustentabilidade voltada à eficiência energética.
 
 ### Skill: Automação de Relatórios Pedagógicos Dinâmicos (Projeto EduReport)
-* **Descrição do Fluxo:** Captura e processamento inteligente do contexto de sala de aula a partir das transcrições das aulas ministradas pelo professor, transformando relatos verbais e observações brutas em lógica objetiva e estruturada para suporte à gestão pedagógica.
-* **Regras de Execução & Contexto:** - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto gerado pelas transcrições diárias das aulas do docente para identificar a intenção pedagógica.
-  - **Triagem Inteligente:** Nomeação e interpretação de contexto para identificação de padrões (evitando cópias literais das falas e eliminando diagnósticos clínicos ou médicos).
-  - **Estruturação Padrão:** Organização obrigatória dos dados extraídos da aula em Panorama Geral, Indicadores Positivos, Pontos de Atenção e Recomendação Pedagógica (com tom acolhedor, humano e técnico).
-  - **Análise de Recorrência:** Cruzamento de dados de múltiplas transcrições para sinalizar tendências comportamentais ou de aprendizado ao longo do tempo.
-  - **Exportação:** Renderização e exportação dos documentos validados em formato PDF estruturado de alta performance.
+* **Descrição do Fluxo:** Captura e processamento inteligente do contexto escolar a partir das transcrições das aulas ministradas pelo professor. O fluxo atua em duas frentes: (1) estruturação de relatórios de evolução pedagógica dos estudantes e (2) análise textual preditiva para mapeamento do perfil de bem-estar e saúde mental do professor.
+* **Regras de Execução & Contexto:** - **Processamento de Áudio/Texto:** Engenharia de prompts aplicada sobre o texto bruto das transcrições diárias das aulas para identificar padrões linguísticos, níveis de sobrecarga e a intenção pedagógica.
+  - **Triagem do Estudante:** Nomeação e interpretação de contexto para identificação de padrões comportamentais e acadêmicos dos alunos (evitando cópias literais e diagnósticos clínicos).
+  - **Mapeamento de Saúde Mental do Professor:** Análise textual discreta e preditiva baseada em indicadores de desgaste, tom de voz expresso no texto, recorrência de termos associados a estresse ou exaustão, gerando insights de suporte à saúde coletiva docente.
+  - **Segurança e Ética de Dados:** Garantia de que a análise de saúde mental do docente seja tratada de forma confidencial, servindo como ferramenta de apoio e acolhimento, e nunca para fins punitivos.
+  - **Exportação:** Geração e exportação dos relatórios pedagógicos e dos indicadores de bem-estar em formato PDF estruturado de alta performance.
 * **Stack de Infraestrutura:** JavaScript / TypeScript, React.js (Next.js), APIs de LLMs (Google AI Studio / Gemini), ferramentas low-code avançadas (Lovable / v0) para prototipagem rápida e deploy automatizado (Netlify / Vercel).
