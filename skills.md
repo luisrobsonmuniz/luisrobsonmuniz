@@ -11,7 +11,7 @@
 *Esta seção documenta como o conhecimento é estruturado para gerar automação consistente.*
 
 ### Skill: Sistema de Inteligência Operacional para Sala de Aula (Projeto DNAula)
-> **DNAula** é uma plataforma de inteligência operacional para gestão de sala de aula, baseada na interpretação contextual das interações pedagógicas em sala de aula. O DNAula reduz a carga burocrática do professor e transforma interações de sala de aula em inteligência operacional estruturada.
+> **DNAula** é uma plataforma de inteligência operacional para gestão de sala de aula, baseada na interpretação contextual das interações pedagógicas em sala de aula. O DNAula reduz a carga burocrática do professor e transforma a dinâmica de sala de aula em inteligência pedagógica estruturada.
 
 * **Descrição do Fluxo:** Captura e processamento inteligente do contexto de sala de aula a partir de interações pedagógicas verbalizadas, focando na otimização do tempo, redução da sobrecarga burocrática docente e identificação de demandas estruturais da dinâmica escolar.
 * **Regras de Execução & Contexto:**
